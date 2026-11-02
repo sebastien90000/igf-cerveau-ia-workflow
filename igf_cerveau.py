@@ -14,8 +14,10 @@ from pydantic import BaseModel, Field
 
 import mistralai.workflows as workflows
 
-from igf_lib import analysis, config, graph, notion
-
+import analysis
+import config
+import graph
+import notion
 
 class DailyRunInput(BaseModel):
     """Entrée du run quotidien."""
